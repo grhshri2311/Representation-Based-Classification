@@ -1,0 +1,9 @@
+# Representation-Based-Classification
+## Overview
+This project focuses on potentially avoiding failures from systems using predictive measures obtained from previous occurrences and finding the remaining useful life of the machinery. The Main objective of this study is to use effective sampling methods and classification models which can compete with existing deep learning neural networks but requires limited resources in order to run on small edge devices. Usually accelerometer and encoders are used for getting necessary inputs for training a prognostic model. The accelerometer helps to get vibration signals of hardware components which is then processed to analyse the heath state of it. The encoder is often used to make note of data rotor velocity. In this way, a dataset containing vibration signals from bearing is used to train and validate the proposed fault prognostic model. It is necessary to build a domain invariant classifier which can classify the faulty samples with less information about the nature of dataset and able to perform the classification with less time and space complexity.
+## Architecture
+<img width="1456" alt="Screenshot 2023-06-28 at 12 36 25 PM" src="https://github.com/grhshri2311/Representation-Based-Classification/assets/62495604/bd9ab2b2-bc10-4443-a944-a3bcf2c3bc9b">
+
+![Screenshot 2023-06-28 at 12 30 51 PM](https://github.com/grhshri2311/Representation-Based-Classification/assets/62495604/e5b30318-e6fd-428e-96b6-ed0803229eb2)
+<img width="946" alt="Screenshot 2023-06-28 at 12 30 45 PM" src="https://github.com/grhshri2311/Representation-Based-Classification/assets/62495604/f201c28a-3d6f-4e85-8834-ff063fb86099">
+<img width="933" alt="Screenshot 2023-06-28 at 12 30 27 PM" src="https://github.com/grhshri2311/Representation-Based-Classification/assets/62495604/c047380f-9511-473d-a728-1e97dfcb2798">
